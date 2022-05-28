@@ -15,7 +15,7 @@ const checkTimings = async (req, res) => {
 
     // Do the TTFB Checks
     try {
-        throw new Error("TeST")
+
         // Start Puppeteer
         browser = await puppeteer.launch({
             headless: false,
@@ -77,32 +77,22 @@ const checkTimings = async (req, res) => {
         // Add to object
         finalPayload.push(finalResults)
 
+        // Check final payload
         console.log('finalPayload top', finalPayload)
-        res.json(finalPayload)
 
     } catch (err) {
         console.log('err', err)
-        res.json({err: JSON.stringify(err)})
+        return res.sendStatus(400)
 
     } finally {
         // Log checks
         // console.log('finalPayload', JSON.stringify(finalPayload))
         // Send response payload
-        // res.json(finalPayload)
-        // res.json({success: 'true'})
+        res.json(finalPayload)
 
         await browser.close()
         console.log('Browser was closed')
     }
 }
 
-// Test post endpoint
-const postTest = async (req, res) => {
-    let testValue = req.body.urlValue
-    let responseCheck = {
-        "testKey": testValue
-    }
-    res.json(responseCheck)
-}
-
-module.exports = {checkTimings, postTest}
+module.exports = {checkTimings}
