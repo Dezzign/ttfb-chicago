@@ -82,7 +82,7 @@ const checkTimings = async (req, res) => {
 
     } catch (err) {
         console.log('err', err)
-        return res.status(500).send({err: err.toString()})
+        return res.status(401).send({err: err.toString()})
 
     } finally {
         // Log checks
