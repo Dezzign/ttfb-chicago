@@ -18,7 +18,7 @@ const checkTimings = async (req, res) => {
 
         // Start Puppeteer
         browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
             // ignoreDefaultArgs: ['--disable-extensions'],
             // args: ['--single-process'],
         })
