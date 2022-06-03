@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292fd29b-95ea-4dc0-9dbc-2c7ffb221a35" name="Changes" comment="Fresh push" />
+    <list default="true" id="292fd29b-95ea-4dc0-9dbc-2c7ffb221a35" name="Changes" comment="Fresh push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,23 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "multiplecopypaste@gmail.com",
-    "ACTIVE_CLOUD_PROJECT_ID": "serpworx-node-live",
-    "ACTIVE_CLOUD_PROJECT_NAME": "serpworx-node-live",
-    "ACTIVE_CLOUD_PROJECT_NUMBER": "251746088332",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20220530_0001",
-    "javascript.nodejs.core.library.configured.version": "14.16.1",
-    "javascript.nodejs.core.library.typings.version": "14.18.18",
-    "last_opened_file_path": "C:/Users/Richard/Pictures/00 SerpWorx/ttfb/chicago",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ACTIVE_CLOUD_PROJECT_ACCOUNT&quot;: &quot;multiplecopypaste@gmail.com&quot;,
+    &quot;ACTIVE_CLOUD_PROJECT_ID&quot;: &quot;serpworx-node-live&quot;,
+    &quot;ACTIVE_CLOUD_PROJECT_NAME&quot;: &quot;serpworx-node-live&quot;,
+    &quot;ACTIVE_CLOUD_PROJECT_NUMBER&quot;: &quot;251746088332&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220603_0003&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;14.16.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;14.18.18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Richard/Pictures/00 SerpWorx/ttfb/chicago&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Richard\Pictures\00 SerpWorx\ttfb\chicago" />
@@ -429,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653860785883</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Fresh push">
+      <created>1653862146841</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1653862146841</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
