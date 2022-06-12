@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer')
-const express = require("express");
+const express = require('express')
 router = express.Router()
 
 const checkTimings = async (req, res) => {
